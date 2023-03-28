@@ -8,6 +8,10 @@ body{
     font-family: sans-serif;
     background: #1C1A27;
     color: aliceblue;
+    overflow: hidden;
+}
+.NavBar-Main{
+    margin: 0;
 }
 
 .loader-bar{
@@ -67,6 +71,10 @@ body{
    }
 }
   
+a{
+    text-decoration: none;
+    color: azure;
+}
 
 .container:hover{
 border-top: 1px solid rgba(255,255,255,1.3); 
@@ -78,19 +86,19 @@ transition: 0.5s ease;
 }
 
 .container img{
-    width: 60%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     justify-content: center;
     position: relative;
-    left: 0;
-    border-radius: 5px;
+    left: 12%;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .container img:hover{
     position: relative;
     top: 50%;
 }
-
 .identy-bar{
     margin: 2%;
     height: 20px;
@@ -107,4 +115,27 @@ transition: 0.5s ease;
     margin: none;
     position: relative;
     top: -12px;
+}
+
+.NavBar-Main h3 {
+    padding: 15px;
+    overflow: hidden;
+
+}
+
+.link-button{
+    float: inline;
+    position: relative;
+    top: 125px;
+    right: 130px;
+    padding: 10px;
+    background: #1F51FF;
+    border: none;
+    border-radius: 5px;
+}
+
+.link-button:hover{
+   box-shadow: 1px 0px 5px #1F51FF ; 
+   transition: 0.5s ease;
+   cursor: pointer;
 }
